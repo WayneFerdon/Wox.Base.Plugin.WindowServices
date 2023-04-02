@@ -2,8 +2,8 @@
 # Author: WayneFerdon wayneferdon@hotmail.com
 # Date: 2023-04-02 11:57:59
 # LastEditors: WayneFerdon wayneferdon@hotmail.com
-# LastEditTime: 2023-04-02 13:44:54
-# FilePath: \Flow.Launcher.Plugin.WindowServices\main.py
+# LastEditTime: 2023-04-03 01:10:37
+# FilePath: \Wox.Base.Plugin.WindowServices\main.py
 # ----------------------------------------------------------------
 # Copyright (c) 2023 by Wayne Ferdon Studio. All rights reserved.
 # Licensed to the .NET Foundation under one or more agreements.
@@ -11,9 +11,11 @@
 # See the LICENSE file in the project root for more information.
 # ----------------------------------------------------------------
 
-import os
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+from WoxPluginBase_Query import *
+
 import subprocess
-from Query import *
 from services import *
 
 ICON_DIR = './Images'
