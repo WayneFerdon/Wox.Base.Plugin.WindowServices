@@ -2,8 +2,8 @@
 # Author: WayneFerdon wayneferdon@hotmail.com
 # Date: 2023-04-02 11:57:59
 # LastEditors: WayneFerdon wayneferdon@hotmail.com
-# LastEditTime: 2023-04-02 13:41:06
-# FilePath: \Flow.Launcher.Plugin.WindowServices\services.py
+# LastEditTime: 2023-04-03 02:47:49
+# FilePath: \Wox.Base.Plugin.WindowServices\services.py
 # ----------------------------------------------------------------
 # Copyright (c) 2023 by Wayne Ferdon Studio. All rights reserved.
 # Licensed to the .NET Foundation under one or more agreements.
@@ -18,7 +18,6 @@ class Service(object):
     class Status(Enum):
         STOPPED=0
         RUNNING=1,
-
 
     def __init__(self, service):
         self._raw = service
