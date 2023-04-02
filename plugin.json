@@ -1,0 +1,12 @@
+{
+  "ID": "3F6F3E2079982C62F9CD573D7456FD88",
+  "ActionKeyword": "ws",
+  "Name": "Window Services",
+  "Description": "Start and stop Windows services.",
+  "Author": "WayneFerdon",
+  "Version": "1.0.0",
+  "Language": "python",
+  "Website": "https://github.com/wayneferdon",
+  "IcoPath": "./Images/service.png",
+  "ExecuteFileName": "main.py"
+}
