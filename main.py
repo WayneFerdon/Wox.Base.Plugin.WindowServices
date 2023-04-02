@@ -29,7 +29,7 @@ STATUS_ICON = {
     Service.Status.STOPPED:SERVICE_STOPPED
 }
 
-class WindowServices(Query):
+class WindowsServices(Query):
     def query(self, query:str):
         results = list()
         services = get_services()
@@ -81,4 +81,4 @@ class WindowServices(Query):
 
 
 if __name__ == '__main__':
-    WindowServices()
+    WindowsServices()

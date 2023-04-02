@@ -1,7 +1,7 @@
 {
   "ID": "cfc9ac9a-2950-40fa-9870-045ee6fa4587",
   "ActionKeyword": "ws",
-  "Name": "Window Services",
+  "Name": "Windows Services",
   "Description": "Start and stop Windows services.",
   "Author": "WayneFerdon",
   "Version": "1.0.0",
