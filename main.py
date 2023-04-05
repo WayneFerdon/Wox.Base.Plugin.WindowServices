@@ -29,7 +29,7 @@ STATUS_ICON = {
     Service.Status.STOPPED:SERVICE_STOPPED
 }
 
-class WindowsServices(Query):
+class WindowsServices(QueryPlugin):
     def query(self, query:str):
         results = list()
         services = get_services()
